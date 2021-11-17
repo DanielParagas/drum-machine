@@ -73,7 +73,7 @@ function App() {
           </div>
 
           <div id="drum-pad-container">
-            
+             
             { bankOne.map( sound => 
                   <Pad sound={sound} setKeyDescription={setKeyDescription} />
             ) }
